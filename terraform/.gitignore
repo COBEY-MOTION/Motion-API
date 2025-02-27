@@ -1,0 +1,14 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+
+# Crash logs
+crash.log
+
+# Terraform local modules
+.terraform/
+
+# Override files with sensitive data
+**/terraform.tfvars
+.env
